@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+img{
+	max-width: 50%;
+}
+
+
+.contenedor{
+	float:none;
+	margin-top:30px;
+	text-align: center;
+	position: relative;
+	left: 25%;
+}
+
+.font-text{
+	font-family: 'Courgette', cursive;
+	font-size: 3em;
+	color: rgb(6,68,89.05);
+}
+
+a{
+	color:#052C3B;
+	text-decoration: none;
+}
+
+.space-text{
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+
+.nav-menu{
+	background: #eee;
+	padding: 10px 10px ;
+	text-align: center;
+
+}
+
+/*menu*/
+
+.list-menu{
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-menu li{
+	list-style-type: none;
+	float: none;
+	display: inline-block;
+
+}
+
+
+
+.text-center h3{
+	text-align: center;
+		color: white;
+}
+
+
+
+
+.seccion{
+	border-radius: 10px;
+	border: 1px solid ;
+	background: rgba(63, 82, 103);
+
+}
+
+
+.inline-block{
+	float:none;
+	display: inline-block;
+	margin: 20px 10px;
+}
+
+.kill-float{
+	float:none;
+}
+.seccion-perfil{
+	margin-top:70px;
+}
+
+.color-mail{
+	color: maroon;
+}
+
+.parrafo-text{
+	font-size: 14px;
+}
+
+.retraso-img{
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	animation-delay:1s;
+
+}
+
+.retraso-text2{
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay:2s;
+
+}
+.medium{
+	font-size: 1.5em;
+}

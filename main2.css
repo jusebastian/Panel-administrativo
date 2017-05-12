@@ -1,0 +1,126 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+
+.font-text{
+	font-family: 'Courgette', cursive;
+	font-size: 3em;
+	color: #fff;
+	text-align: center;
+}
+
+/*Encabezado administracion*/
+
+.header{
+
+	position: absolute;
+	width: 100%;/*ancho encabezado*/
+	height: 60px;
+	background: #253C5B;/*color encabezado*/
+	z-index: 4; /*coloca cualquier objeto ensima del otro*/
+}
+
+i{
+
+}
+
+/*perfil usuario*/
+.logo-main i{
+
+	width: 40px;
+	height: 40px;
+	margin-top: 40px;
+	margin-left: 45%;
+}
+
+
+/*Menu barra lateral*/
+.contenedor{
+
+
+}
+.side-nav{
+	position: absolute;
+	background: #4A5768;
+	width: 100%;
+	height: 100vh;
+	z-index: 3;
+	padding-top: 60px;
+}
+
+.side-nav li:hover{
+	color: #fff;
+	cursor: pointer;
+	background-color:#64b4db;
+}
+
+.side-nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.side-nav ul li{
+	padding: 20px 20px;
+	border-bottom: 1px solid #fff;
+
+}
+
+.side-nav ul li a  {
+	color: #fff;
+	text-decoration: none;	
+	line-height: 60px;
+}
+.side-nav ul li i {
+	color: #333;
+	padding: 0 10px;
+}
+
+/*creando responsive*/
+@media screen and (min-width: 600px){
+
+	.side-nav{
+		width: 100px;
+	}
+
+	.side-nav ul li{
+		text-align: center; 
+	}
+
+	.side-nav ul li span:nth-child(2){
+		display: none;
+	}
+	.side-nav ul li i{
+		font-size: 26px;
+
+	}
+
+}
+
+
+@media screen and (min-width: 1000px){
+
+	.side-nav{
+		width: 250px;
+	}
+	.side-nav ul li{
+		text-align: left;
+	}
+
+	.side-nav ul li span:nth-child(2) {
+		display: inline;
+	}
+
+	.side-nav ul li a{
+		font-size: 12px;
+	}
+
+	.side-nav ul li i{
+		font-size: 20px;
+	}
+
+
+	
+}
