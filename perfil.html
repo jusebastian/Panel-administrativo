@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta lang="es">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main4.css">
+    <link rel="stylesheet" type="text/css" href="css/modificar.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+	<title>Menu</title>
+</head>
+<body>
+    <header>  
+            <nav class="menu">
+                <ul>
+                    <li class="login">
+                        <a  href="perfil.html">
+                            <img src="img/juan.jpg" class="img"><span class="fa fa-sort-asc"></span>
+                        </a>
+                        <div class="sub-menu">
+                           <ul>
+                            <li><a href=""><span class=""></span>Configuración</a></li>
+                            <li><a href=""><span class=""></span>Salir</a></li>
+                           </ul>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </nav>
+    </header>
+    <div class="box-menu ">
+        <div class="logo">
+            <a href="perfil.html"><img src="img/juan.jpg" class="img"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="inicio.html"><span class="fa fa-home fa-3x"></span>Inicio</a></li>
+                <li><a href="pacientes.html"><span class="fa fa-user fa-3x"></span>Pacientes</a></li>
+                <li><a href="citaMedica.html"><span class="fa fa-pencil-square-o fa-3x"></span>Citas Médicas</a></li>
+                <li><a href="consultaMedica.html"><span class="fa fa-clipboard fa-3x"></span>Consultas Médicas</a></li>
+                <li><a href=""><span class="fa fa-bar-chart fa-3x"></span>Tarifa</a></li>
+                <li><a href=""><span class="fa fa-cog fa-3x"></span>Adiministración</a></li>
+
+            </ul>
+        </nav>
+    </div>
+	
+	<h2 class="title3">Tu Perfil</h2>
+	<div class="box-perfil">
+		<div class="img">
+			<div class="circulo">
+				<img src="img/juan.jpg">
+			</div>
+
+			<!--<p> Arrastra aquí tu imagen de perfil o sube una foto</p>-->
+		</div>
+	</div>
+    <!-----BOTONES MODAL----->
+    <div>
+        <button type="button" value="" class="btn btn-success boton" id="abrir-modal">Cambiar Contraseña</button>
+        <!-----
+        <label for="cerrar-modal" class="fa fa-times fa-2x" id="cerrar"></label>
+        <input type="radio" name="modal" id="cerrar-modal">-->
+
+    </div>
+	
+	<!--<h2 class="title4">Tus Datos</h2>-->
+
+    <!-----FORMULARIO----->
+	<div class="col-md-6 box-informacion">
+		<h3 class="title4">Tus Datos</h3>
+		<form action="">
+			<div class="col-md-5">
+				<label for="nombre">Nombres</label>
+				<input type="text" id="nombre" class="form-control">
+			</div>
+			<div class="col-md-5">
+				<label for="apellido">Apellidos</label>
+				<input type="text" id="apellido" class="form-control">
+			</div>
+			<div class="col-md-5">
+				<label for="">Numero identificación</label>
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-5">
+				<label for="">Usuario</label>
+				<input type="text" class="form-control">
+			</div>
+
+			<div class="col-md-4">
+				<label for="">Número Teléfono</label>
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-4">
+				<label for="">Número Celular</label>
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-5">
+				<label for="">Email</label>
+				<input type="Email" class="form-control">
+			</div>
+			<div>
+				<input type="submit" value="Editar perfil" class="btn btn-success"><a href="modificar.html"></a>
+                
+			</div>
+		</form>
+	</div>	
+    
+    <!---FORMULAIO MODAL---->
+   <div id="modal">
+       <div class="box-newpass">
+           <h2 class="encabezado">Cambiar Contraseña</h2>
+           <form  class="col-md-10 form1">
+
+               <div class="input1" >
+                <input type="password" name="password" class="form-control" placeholder="Contraseña Actual">
+               </div>
+               <div class="input2">
+                <input type="password" name="password" class="form-control" placeholder="Nueva Contraseña">
+               </div>
+               <div class="input3">
+                <input type="password" name="password" class="form-control" placeholder="Verificar Contraseña">
+               </div>
+               
+               <button class="btn btn-primary boton1" >Guardar</button>
+               <button class="btn btn-secondary boton1">Cerrar</button>
+           </form>
+       </div>
+   </div>
+
+</body>
+</html>
